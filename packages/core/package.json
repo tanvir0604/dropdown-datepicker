@@ -1,0 +1,55 @@
+{
+    "name": "@dropdown-datepicker/core",
+    "version": "1.0.0",
+    "description": "Framework-agnostic dropdown-based datepicker core logic with day, month, and year support.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist",
+        "prepublishOnly": "npm run build"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "datepicker",
+        "dropdown",
+        "core",
+        "typescript",
+        "date",
+        "month",
+        "year",
+        "calendar",
+        "ui-component"
+    ],
+    "author": "Md Shafkat Hussain Tanvir <tanvir0604@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tanvir0604/dropdown-datepicker.git",
+        "directory": "packages/core"
+    },
+    "bugs": {
+        "url": "https://github.com/tanvir0604/dropdown-datepicker/issues"
+    },
+    "homepage": "https://github.com/tanvir0604/dropdown-datepicker#readme",
+    "dependencies": {
+        "dayjs": "^1.11.13"
+    },
+    "devDependencies": {
+        "typescript": "^5.8.3",
+        "@repo/typescript-config": "workspace:*"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

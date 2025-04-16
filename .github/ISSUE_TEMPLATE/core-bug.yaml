@@ -1,0 +1,19 @@
+name: 🐛 Bug Report (core)
+description: Report a bug for @dropdown-datepicker/core
+labels: ["bug", "package:core"]
+body:
+    - type: input
+      id: version
+      attributes:
+          label: Package version
+          placeholder: e.g., 1.0.0
+    - type: textarea
+      id: description
+      attributes:
+          label: What’s the bug?
+          description: Explain what’s not working as expected.
+    - type: textarea
+      id: steps
+      attributes:
+          label: Steps to Reproduce
+          description: How do we recreate this issue?
