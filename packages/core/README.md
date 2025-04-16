@@ -67,7 +67,7 @@ Checks whether the given date is valid (e.g., 31 Feb is invalid).
 
 ---
 
-🐛 Found a bug? [Report it here](https://github.com/tanvir0604/dropdown-datepicker/issues/new?labels=package:core&template=core-bug.yml)
+🐛 Found a bug? [Report it here](https://github.com/tanvir0604/dropdown-datepicker/issues/new?template=core-bug.yaml)
 
 ## 🔗 Related
 

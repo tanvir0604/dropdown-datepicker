@@ -105,7 +105,7 @@ Pass the locale:
 ## 🐛 Issues
 
 Report bugs or suggest features here:  
-[👉 Open React Issues](https://github.com/tanvir0604/dropdown-datepicker/issues?q=label:package:react)
+[👉 Open React Issues](https://github.com/tanvir0604/dropdown-datepicker/issues/new?template=react-bug.yaml)
 
 ---
 
