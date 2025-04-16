@@ -1,6 +1,6 @@
 {
     "name": "@dropdown-datepicker/react",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A fully customizable dropdown datepicker component for React, built on top of @dropdown-datepicker/core. Offers separate dropdowns for day, month, and year with complete control over styling and behavior.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -37,7 +37,7 @@
     "homepage": "https://github.com/tanvir0604/dropdown-datepicker/tree/main/packages/react",
     "dependencies": {
         "react": "^19.1.0",
-        "@dropdown-datepicker/core": "^1.0.0"
+        "@dropdown-datepicker/core": "^1.0.1"
     },
     "peerDependencies": {
         "react": "^18.0.0 || ^19.0.0"

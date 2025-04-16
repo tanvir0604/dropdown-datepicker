@@ -1,6 +1,6 @@
 {
     "name": "@dropdown-datepicker/core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Framework-agnostic dropdown-based datepicker core logic with day, month, and year support.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
