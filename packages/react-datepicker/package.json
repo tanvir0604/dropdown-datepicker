@@ -1,0 +1,27 @@
+{
+    "name": "@dropdown-datepicker/react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^19.1.0",
+        "@dropdown-datepicker/core": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.1",
+        "typescript": "^5.8.3",
+        "@repo/typescript-config": "workspace:*"
+    }
+}
