@@ -22,7 +22,7 @@ importers:
     dependencies:
       '@dropdown-datepicker/react':
         specifier: workspace:*
-        version: link:../../packages/react-datepicker
+        version: link:../../packages/react
       next:
         specifier: 15.3.0
         version: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -61,7 +61,7 @@ importers:
         specifier: ^5
         version: 5.8.3
 
-  packages/datepicker-core:
+  packages/core:
     dependencies:
       dayjs:
         specifier: ^1.11.13
@@ -110,11 +110,11 @@ importers:
         specifier: ^8.29.0
         version: 8.29.0(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.2)
 
-  packages/react-datepicker:
+  packages/react:
     dependencies:
       '@dropdown-datepicker/core':
-        specifier: workspace:*
-        version: link:../datepicker-core
+        specifier: ^1.0.0
+        version: 1.0.0
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -131,11 +131,16 @@ importers:
 
   packages/typescript-config: {}
 
+  packages/vue: {}
+
 packages:
 
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  '@dropdown-datepicker/core@1.0.0':
+    resolution: {integrity: sha512-AcASYvwtNaU6HBtmXmXgkFwOaUk1vp3PThkspLmzeG6wGRKWy5HelVeWdZ1ci5QhHHgN8QdJNOTgptAsDvdIwg==}
 
   '@emnapi/core@1.4.1':
     resolution: {integrity: sha512-4JFstCTaToCFrPqrGzgkF8N2NHjtsaY4uRh6brZQ5L9e4wbMieX8oDT8N7qfVFTQecHFEtkj4ve49VIZ3mKVqw==}
@@ -1864,6 +1869,10 @@ packages:
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
+
+  '@dropdown-datepicker/core@1.0.0':
+    dependencies:
+      dayjs: 1.11.13
 
   '@emnapi/core@1.4.1':
     dependencies:

@@ -83,4 +83,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📄 License
 
-MIT © 2025 [Your Name](https://github.com/tanvir0604)
+MIT © 2025 [Md Shafkat Hussain Tanvir](https://github.com/tanvir0604)
