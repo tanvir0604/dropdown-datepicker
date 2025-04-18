@@ -31,7 +31,7 @@ pnpm add @dropdown-datepicker/react
 
 ```tsx
 import React from "react";
-import DropdownDatepicker from "@dropdown-datepicker/react";
+import { DropdownDatepicker } from "@dropdown-datepicker/react";
 
 function Example() {
     return (
@@ -111,4 +111,4 @@ Report bugs or suggest features here:
 
 ## 📄 License
 
-MIT – © [Your Name](https://github.com/tanvir0604)
+MIT – © [Md Shafkat Hussain Tanvir](https://github.com/tanvir0604)
